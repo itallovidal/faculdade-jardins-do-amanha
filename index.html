@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-index.css">
+    <script src="https://kit.fontawesome.com/782e4cfd7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/icon.svg"/>
+    <title>Jardins Do Amanhã!</title>
+</head>
+<body >
+    <div id="container-nav">
+        <div id="nav-mobile">
+            <span>Jardins Do Amanhã </span>
+            <i id="btn-openNav" class="fa-solid fa-bars"></i>
+        </div>
+
+        <nav>
+            <i id="btn-closeNav" class="fa-solid fa-x"></i>
+            <a href="./index.html">Home</a>
+            <a href="./gallery.html">Jardins</a>
+            <a href="./form.html">Contate-nos</a>
+        </nav>
+    </div>
+    <header>
+            <picture>
+                <source media="(max-width: 500px)" srcset="./img/headermobile.jpg">
+                <source media="(min-width: 501px)" srcset="./img/headerpic.jpg">
+                <img src="" alt="Arvores">
+            </picture>
+
+            <div>
+                <h1>Jardins do Amanhã</h1>
+                <p>Cultivando o Futuro, hoje.</p>
+            </div>
+    </header>
+    <main>
+
+        <article id="container-sobre">
+            <div id="detalhe"></div>
+            <div id="quemsomos">
+                <h1>Quem somos?</h1>
+                <p> Nossa empresa é especializada em criar projetos de paisagismo que têm como objetivo embelezar e personalizar ambientes externos e internos. Contamos com profissionais capacitados em técnicas de jardinagem e paisagismo, que utilizam plantas, flores e elementos decorativos para criar espaços agradáveis e harmoniosos. 
+                </p>
+
+                <p> Procuramos criar e cuidar de jardins buscando respeitar o meio ambiente e promover a sustentabilidade, ajudando a construir um futuro mais verde e saudável. </p>
+            </div>
+            <img id="quemsomospic" src="./img/quemsomospic.jpg" alt="">
+
+            <div id="gratidao">
+                <h1>Gratidão</h1>
+                <p>Nossa empresa tem orgulho em oferecer nossos serviços aos nossos clientes, e estamos muito gratos por ter a oportunidade de fazer o que amamos. Nós acreditamos que cuidar de jardins e criar espaços verdes é mais do que um trabalho - é uma missão. Estamos dedicados a melhorar a qualidade de vida de nossos clientes, trazendo beleza, harmonia e tranquilidade aos ambientes que criamos. </p>
+                <p> Nós agradecemos aos nossos clientes por confiar em nós e permitir que coloquemos nossos conhecimentos em prática. Sabemos que cada projeto é único e tem suas particularidades, e estamos comprometidos em entregar sempre o melhor resultado possível. Para nós, não há nada mais gratificante do que ver nossos clientes satisfeitos e felizes com o trabalho que realizamos. </p>
+            </div>
+
+            <img id="gratidaopic" src="./img/gratidaopic.jpg" alt="">
+        </article>
+
+        <article id="container-trabalhos">
+            <h1>Trabalhos</h1>
+
+            <div id="container-fotos">
+                <img data-img="0" class="" src="./img/pic1.jpg" alt="">
+                <img data-img="1" class="mobile-img" src="./img/pic2.jpg" alt="">
+                <img data-img="2" class="mobile-img" src="./img/pic3.jpg" alt="">
+            </div>
+
+            <div id="container-slider">
+                <h3>Arraste para qualquer lado para ver mais!</h3>
+            </div>
+
+            <a class="btn-style" id="vermais" href="./gallery.html">Ver Mais</a>
+        </article>
+    </main>
+
+    <footer>
+        <nav>
+            <h1>Jardins do Amanhã</h1>
+
+            <a href="./index.html">Home</a>
+            <a href="./gallery.html">Jardins</a>
+            <a href="./form.html">Contate-nos</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

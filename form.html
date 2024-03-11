@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-form.css">
+
+    <script src="https://kit.fontawesome.com/782e4cfd7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/icon.svg"/>
+    <title>Jardins do Amanhã</title>
+</head>
+<body>
+<div id="container-nav">
+    <div id="nav-mobile">
+        <span>Jardins Do Amanhã </span>
+        <i id="btn-openNav" class="fa-solid fa-bars"></i>
+    </div>
+
+    <nav>
+        <i id="btn-closeNav" class="fa-solid fa-x"></i>
+        <a href="./index.html">Home</a>
+        <a href="./gallery.html">Jardins</a>
+        <a href="./form.html">Contate-nos</a>
+    </nav>
+</div>
+    <main>
+
+        <article>
+            <img src="img/visitatecnicapic.jpg" alt="">
+
+            <form>
+                <div id="container-titulo">
+                    <p>Agende sua</p>
+                    <h1>Visita Técnica</h1>    
+                </div>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                    <label for="Endereco">Endereço:</label>
+                    <input type="text" name="Endereco">
+                </div>
+                <div>
+                    <label for="MetragemEspaco">Metragem do Espaço:</label>
+                    <input type="number" name="MetragemEspaco">
+                </div>
+    
+                <div id="container-desc">
+                    <label for="desc">Descrição do Projeto</label>
+                    <textarea name="desc" id="desc" rows="4" placeholder="Escreva aqui o que você deseja.."></textarea>
+                </div>
+    
+                <button class="btn-style" type="submit">Solicitar Visita</button>
+            </form>
+        </article>
+
+    </main>
+
+    <footer>
+
+        <nav>
+            <h1>Jardins do Amanhã</h1>
+
+            <a href="./index.html">Home</a>
+            <a href="./gallery.html">Jardins</a>
+            <a href="./form.html">Contate-nos</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
